@@ -3,6 +3,7 @@ import play from "./assets/play.svg";
 import imdb from "./assets/imdb.svg";
 import rt from "./assets/rotten-Tomatoes.svg";
 function Header() {
+  console.log("akin");
   return (
     <div className="bg-hero-poster text-white">
       <div className="flex items-center justify-between py-[30px] px-[50px]  max-[720px]:p-[20px]">
