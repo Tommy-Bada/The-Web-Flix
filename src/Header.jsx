@@ -1,5 +1,5 @@
 import tv from "./assets/tv.svg";
-import play from "./assets/play.svg";
+import play from "./assets/Play.svg";
 import imdb from "./assets/imdb.svg";
 import rt from "./assets/rotten-Tomatoes.svg";
 function Header() {
