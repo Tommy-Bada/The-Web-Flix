@@ -1,7 +1,7 @@
 import tv from "./assets/tv.svg";
 import play from "./assets/Play.svg";
 import imdb from "./assets/imdb.svg";
-import rt from "./assets/rotten-Tomatoes.svg";
+import rt from "./assets/rotten-tomatoes.svg";
 function Header() {
   console.log("akin");
   return (
