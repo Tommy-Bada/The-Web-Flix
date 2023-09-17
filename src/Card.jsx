@@ -4,7 +4,7 @@ import rt from "./assets/rotten-tomatoes.svg";
 
 function Card(props) {
   return (
-    <div className="w-[250px]" data-testid:movie-card>
+    <div className="w-[250px]" data-testid="movie-card">
       <div className="flex items-center justify-between relative top-14 p-3">
         <p className="text-[12px] bold bg-[#F3F4F650] py-1 px-4 rounded-2xl">
           TV SERIES
@@ -14,12 +14,15 @@ function Card(props) {
         </div>
       </div>
       <div className="mb-2">
-        <img data-testid:movie-poster src={props.poster} alt="movie-poster" />
+        <img data-testid="movie-poster" src={props.poster} alt="movie-poster" />
       </div>
-      <p className="text-[12px] text-[#9CA3AF]" data-testid:movie-release-date>
+      <p
+        className="text-[12px] text-[#9CA3AF]"
+        data-testid="movie-release-date"
+      >
         {props.releaseDate}
       </p>
-      <h2 className="text-[18px] bold w-[100%] my-1" data-testid:movie-title>
+      <h2 className="text-[18px] bold w-[100%] my-1" data-testid="movie-title">
         {props.title}
       </h2>
       <div className="flex items-center justify-between mt-2">

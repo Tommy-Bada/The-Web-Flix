@@ -39,18 +39,18 @@ function MovieDetails() {
             </div>
             <div>
               <div>
-                <p className="text-[28px]" data-testid:movie-title>
+                <p className="text-[28px]" data-testid="movie-title">
                   {dets.title}
                 </p>
-                <p className="text-[20px]" data-testid:movie-release-date>
+                <p className="text-[20px]" data-testid="movie-release-date">
                   {dets.release_date}
                 </p>
-                <p className="text-[18px]" data-testid:movie-runtime>
+                <p className="text-[18px]" data-testid="movie-runtime">
                   {dets.runtime}
                 </p>
               </div>
             </div>
-            <p data-testid:movie-overview>{dets.overview}</p>
+            <p data-testid="movie-overview">{dets.overview}</p>
           </div>
         </div>
       </div>
